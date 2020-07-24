@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+label{
+	color: white;
+}
+
+.container>.media>img{
+	justify-content: center;
+	margin-left: 12em;
+}
+
+.container>.media>.media-body>h1{
+	
+	margin-left: 0.5em;
+	margin-bottom: 0.8em;
+	color: rgb(11 ,57,166);
+
+
+}
+.container{
+	margin-bottom: 2em;
+	margin-top: 2em;
+	background-color:rgba(0,0,0,0.3);
+	padding: 2em;
+	}
+header{
+
+	/*background-image: url(E:\Temp\MRUNMAYI\Book List App\maxresdefault.jpg);*/
+	margin-left: 8em;
+}
+
+.form-group>.form-control{
+	width: 70%;
+
+}
+.table{
+
+	margin-top: 2em;
+
+}
+.table td, .table th{
+	padding-left: 3em;
+	padding-right: 0em;
+}
+button{
+	padding-left: 2em;
+}
+.form-control{
+	border:none;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+	border-radius: 0;
+	background-color:rgba(0,0,0,0);
+	
+}
+.form-control:focus{
+	box-shadow: none;
+	border-bottom: 2px solid blue;
+	border-radius: 0;
+	background-color:rgba(0,0,0,0);
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+	.container>.media>img{
+	justify-content: center;
+	margin-left: 5em;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+	.container>.media>img{
+	justify-content: center;
+	margin-left: 2em;
+}
+header{
+	margin-left: 4em;
+}
+	.form-group>.form-control{
+	width: 80%;
+
+}
+}
+@media (max-width: 575.98px){
+	body{
+		background-color:rgba(0,0,0,0.3); 
+	}
+	.container>.media>img{
+	display: none;
+	}	
+header{
+	margin-left: 3em;
+}
+	.form-group>.form-control{
+	width: 95%;
+
+}
+.container{
+	background-color:rgba(0,0,0,0);
+	box-shadow: none;
+}
+}
