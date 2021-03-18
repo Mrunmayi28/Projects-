@@ -1,0 +1,23 @@
+.carousel-inner>.carousel-item>img{
+    height: 30em;
+    width:100%;
+}
+#cardscontent>.col>#cards>.card-img-top{
+    height: 25em;
+    width: 100%;
+}
+#cardscontent{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+#Login{
+    padding: 8em;
+    padding-left: 30em;
+}
+#Login>.row>.col-lg-5>img{
+    height: 20em;
+    width: 20em;
+}
+#Login>.row>.col-lg-7>.in{
+    margin: 3em;
+}
